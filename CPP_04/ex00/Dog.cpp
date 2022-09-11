@@ -14,13 +14,13 @@
 
 Dog::Dog()
 {
-	std::cout << "Dog: Defoult constructor called" << std::endl;
+	std::cout << "Dog: Default constructor called" << std::endl;
 	_type = "type Dog";
 }
 
 Dog::~Dog()
 {
-	std::cout << "Dog: Denstructor called" << std::endl;
+	std::cout << "Dog: Destructor called" << std::endl;
 }
 
 Dog::Dog(Dog const &copy)
